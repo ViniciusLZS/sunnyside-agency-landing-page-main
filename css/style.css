@@ -65,20 +65,18 @@ a{
   height: 34px;
 }
 
-.menu-hamburger{
+#menu-mobile{
   display: none;
 }
+
 
 .menu{
   display: flex;
   justify-content: end;
   flex: 1;
-}
-
-.menu ul{
-  display: flex; 
   gap: 10px;
 }
+
 
 .menu li{
   padding: 15px 25px;
@@ -143,6 +141,7 @@ a{
   align-self: center;
   max-width: 440px;
   justify-self: center;
+  padding-left: 20px;
 }
 .content-offimg-1 h2{
   font-family: var(--font-2);
@@ -186,6 +185,7 @@ a{
   align-self: center;
   max-width: 440px;
   justify-self: center;
+  padding-left: 20px;
 }
 .content-offimg-2 h2{
   font-family: var(--font-2);
@@ -399,6 +399,8 @@ a{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+
 @media(max-width: 800px){
   .container{
     padding-left: 0px;
@@ -412,12 +414,43 @@ a{
   
   .menu{
     display: none;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    background-color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
+  .menu::before {
+    content: "";
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 25px solid #fff;
+    top: -23px;
+    right: 0;
+}
+  .menu li:last-child{
+    background-color: var(--yellow);
+  }
+  .menu a{
+    color: var(--very-dark-grayish-blue);
+  }
+  
+  #menu-mobile{
+    display: block;
+    cursor: pointer;
+  }
+  #nav.active .menu{
+    display: flex;
+  }
+  
   .header-bg h1{
     font-size: 2.5rem;
-  }
-  .menu-hamburger{
-    display: block;
   }
   .section-content{
     display: grid;
@@ -488,6 +521,6 @@ a{
     height: 600px;
   }
   .arrow{
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
