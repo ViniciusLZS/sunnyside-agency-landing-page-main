@@ -376,6 +376,25 @@ a{
   gap: 30px;
 }
 
+.networks-position{
+  position: relative;
+}
+
+.position-hover{
+  position: absolute;
+  bottom: 0px;
+}
+.position-hover:hover{
+  display: none;
+}
+
+.twiter-position-hover{
+  position: absolute;
+  bottom: 3px;
+}
+.twiter-position-hover:hover{
+  display: none;
+}
 /* Feel free to remove these styles or customise in your own stylesheet 👍 */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
