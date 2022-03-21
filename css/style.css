@@ -123,6 +123,13 @@ a{
   justify-content: center;
   padding-top: 80px;
 }
+.arrow img{
+  animation: appear 3s ;
+}
+@keyframes appear{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
 
 .section-content{
   display: grid;
