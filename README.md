@@ -1,9 +1,9 @@
-# sunnyside-agency-landing-page-main
+<h1 align="center">sunnyside-agency-landing-page-main</h1>
 
-Desafio do <a href='https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef'>Frontend Mentor</a> para colocar em pratica os conhecimentos em HTML, CSS e JavaScript.
+<p align="center">Desafio do <a href='https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef'>Frontend Mentor</a> para colocar em pratica os conhecimentos em HTML, CSS e JavaScript.</a></p>
 
-Link: https://viniciuslzs.github.io/sunnyside-agency-landing-page-main/
+<p align="center"> Confira o projeto <a href="https://viniciuslzs.github.io/sunnyside-agency-landing-page-main/">aqui</a></p>
 
-![image](https://user-images.githubusercontent.com/99357388/168155489-1de83db8-95c5-4c27-9d4e-3bb4fadbe751.png)
-
-![image](https://user-images.githubusercontent.com/99357388/168156517-d06791c8-2ee1-4f96-ae19-04b4f431ca19.png)
+<div align="center"> 
+<a href="https://viniciuslzs.github.io/slide/" target="_blank"><img src="https://user-images.githubusercontent.com/99357388/181853153-31b3204f-befd-41fc-b624-cccbdd136026.png" width="800"/></a>
+</div>
