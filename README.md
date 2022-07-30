@@ -5,5 +5,5 @@
 <p align="center"> Confira o projeto <a href="https://viniciuslzs.github.io/sunnyside-agency-landing-page-main/">aqui</a></p>
 
 <div align="center"> 
-<a href="https://viniciuslzs.github.io/slide/" target="_blank"><img src="https://user-images.githubusercontent.com/99357388/181853153-31b3204f-befd-41fc-b624-cccbdd136026.png" width="800"/></a>
+<a href="https://viniciuslzs.github.io/sunnyside-agency-landing-page-main/" target="_blank"><img src="https://user-images.githubusercontent.com/99357388/181853153-31b3204f-befd-41fc-b624-cccbdd136026.png" width="800"/></a>
 </div>
